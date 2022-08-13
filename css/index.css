@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 400
+}
+
+body {
+    font-family: "Poppins";
+    padding: 0 10px 0 40px
+}
+
+img {
+    max-width: 100%;
+    height: auto
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    margin-bottom: 40px
+}
+
+nav img:first-child {
+    width: 100px
+}
+
+nav img:last-child {
+    object-fit: none;
+    width: 180px
+}
+
+.nav-items .nav-item {
+    display: inline-block;
+    padding: 0 40px;
+    font-size: 20px;
+    font-weight: 400
+}
+
+.nav-items .nav-item.active-item {
+    font-weight: 700;
+    color: #fe5e35
+}
+
+.left-section h3 {
+    font-size: 50px
+}
+
+.intro-section {
+    display: flex;
+    flex: 1
+}
+
+.intro-section>div {
+    flex-grow: 1;
+    flex-basis: 0
+}
+
+.left-section {
+    min-width: 60%;
+    margin-top: 60px
+}
+
+.discount-content h1,
+.left-section h1 {
+    font-family: "Fredoka One"
+}
+
+.left-section h1 {
+    font-size: 77px
+}
+
+.headphone-div {
+    position: relative;
+    display: flex
+}
+
+.discount {
+    position: absolute;
+    bottom: 31px;
+    left: -77px;
+    filter: drop-shadow(3px 8px 1px #0009)
+}
+
+.discount-content {
+    position: absolute;
+    bottom: 92px;
+    left: -28px;
+    color: #fff
+}
+
+.discount-content h1 {
+    font-size: 50px
+}
+
+.sub-headlines {
+    margin: 56px 80px 50px
+}
+
+.sub-headline {
+    font-size: 24px;
+    line-height: 1;
+    margin-bottom: 20px
+}
+
+.sub-headline img {
+    background: #fe5e35;
+    border-radius: 50%;
+    padding: 4px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 16px
+}
+
+.text {
+    color: #ccc;
+    font-weight: 400;
+    font-size: 14px;
+    width: 91.6%;
+    margin-bottom: 50px
+}
+
+button {
+    background: #fe5e35;
+    padding: 14px 36px;
+    border: 0;
+    border-radius: 34px;
+    color: #fff;
+    font-size: 18px;
+    font-family: "Poppins"
+}
+
+.action-btns .action-btn:first-child {
+    margin-right: 30px
+}
+
+.action-btn {
+    margin-bottom: 40px
+}
+
+.dots {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 0;
+    margin-bottom: 60px
+}
+
+.dots>div {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%
+}
+
+.dot.yellow-dot {
+    background: #fbd104
+}
+
+.dot.tomato-dot {
+    background: #fe5e35
+}
+
+.dot.black-dot {
+    background: #000
+}
+
+.right-section .action-btn {
+    margin-top: -14px
+}
